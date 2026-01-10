@@ -6,7 +6,7 @@ import RollDice from './RollDice';
 import { useState } from 'react';
 import { Button } from '../styled/Button.js';
 import { OutlineButton } from '../styled/Button.js';
-import Rules from './rules.jsx';
+import Rules from './Rules.jsx';
 const GamePlay = () => {
     const [score, setScore]= useState(0);
     const [error, setError]= useState("");
